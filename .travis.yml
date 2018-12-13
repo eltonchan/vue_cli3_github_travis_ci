@@ -3,6 +3,14 @@ language: node_js
 node_js:  
   - "node"
 
+cache:
+  apt: true
+  directories:
+    - node_modules
+
+addons:
+  ssh_known_hosts: github.com
+
 script:  
   - npm install
 
