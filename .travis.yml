@@ -1,5 +1,13 @@
 language: node_js
 
-script:
-  - npm --registry=https://registry.npm.taobao.org install
+node_js:  
+  - "node"
+
+before_script:  
+  - cd ./nodejs
+
+script:  
+  - npm install
+
+after_script:  
   - npm run build
