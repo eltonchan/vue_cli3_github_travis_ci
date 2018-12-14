@@ -10,11 +10,7 @@ const DIST_PATH = path.join(__dirname, 'dist');
 
 console.time('sync time');
 
-
-Promise.all([
-    childProcessExec(`rsync -Rr . ${SERVER_PATH}`, { cwd: DIST_PATH }),
-    childProcessExec('echo 2292193yjH')
-]).then(() => {
+childProcessExec(`rsync -Rr . ${SERVER_PATH}`, { cwd: DIST_PATH }).then(() => {
     console.info('sync cdn success~');
     console.timeEnd('sync time');
 })
