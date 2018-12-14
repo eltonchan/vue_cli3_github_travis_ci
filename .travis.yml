@@ -6,7 +6,7 @@ cache:
   directories:
   - node_modules
 env:
-  - SERVER_IP_ADDRESS=47.98.99.250
+- SERVER_IP_ADDRESS=47.98.99.250
 addons:
   ssh_known_hosts:
   - 47.98.99.250
