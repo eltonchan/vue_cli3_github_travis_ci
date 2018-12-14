@@ -14,4 +14,4 @@ after_script:
 - npm run build
 before_install:
 - openssl aes-256-cbc -K $encrypted_a3811aa9d454_key -iv $encrypted_a3811aa9d454_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
