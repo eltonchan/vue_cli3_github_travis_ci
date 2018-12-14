@@ -13,4 +13,4 @@ console.time('sync time');
 childProcessExec(`rsync -Rr . ${SERVER_PATH}`, { cwd: DIST_PATH }).then(() => {
     console.info('sync cdn success~');
     console.timeEnd('sync time');
-})
+});
