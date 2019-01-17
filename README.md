@@ -1,31 +1,7 @@
-# auto_build
+### 基于Github 与 Travis CI 的持续集成环境部署
 
-## Project setup
-```
-npm install
-```
+[部署流程](https://zhuanlan.zhihu.com/p/52452036)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[demo 地址](http://cdn.jimstyle.ink/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
+[ci 地址](https://travis-ci.org/eltonchan/vue_cli3_github_travis_ci/jobs/467870168)
